@@ -12,12 +12,12 @@ try:
 			#p.flip_top_bottom(probability=0.5)
 			p.sample(20,multi_threaded=False)
 		except NotADirectoryError:
-			print("THIS IS AMERICA")
+			print("This is not a valid directory")
 		except IndexError:
-			print("Fuck this shit")
+			print("Index error caught")
 		except AttributeError:
-			print('$#@')
+			print('Attribute error caught')
 except NotADirectoryError:
-	print("THIS IS AMERICA")
+	print("This is not a valid directory")
 except IndexError:
-	print("Fuck this shit")
+	print("Index error caught")
